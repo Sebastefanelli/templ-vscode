@@ -388,7 +388,7 @@
       ]
     },
     "else-expression": {
-      "begin": "\\s+(else)\\s+({)\\s*$",
+      "begin": "\\s+(else)\\s*({)\\s*$",
       "beginCaptures": {
         "1": {
           "name": "keyword.control.go"
